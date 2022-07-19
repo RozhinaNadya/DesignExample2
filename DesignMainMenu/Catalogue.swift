@@ -10,7 +10,9 @@ import SwiftUI
 struct Catalogue: View {
     var body: some View {
         VStack {
-            Text("Catalogue")
+            Image(systemName: "folder")
+                .foregroundColor( Color("ColorOne"))
+                .font(.largeTitle)
         }
     }
 }
@@ -18,7 +20,9 @@ struct Catalogue: View {
 struct Cart: View {
     var body: some View {
         VStack {
-            Text("Cart")
+            Image(systemName: "cart")
+                .foregroundColor( Color("ColorOne"))
+                .font(.largeTitle)
         }
     }
 }
@@ -26,7 +30,9 @@ struct Cart: View {
 struct Orders: View {
     var body: some View {
         VStack {
-            Text("My orders")
+            Image(systemName: "list.bullet.rectangle")
+                .foregroundColor( Color("ColorOne"))
+                .font(.largeTitle)
         }
     }
 }
@@ -34,7 +40,9 @@ struct Orders: View {
 struct Fav: View {
     var body: some View {
         VStack {
-            Text("Favourite")
+            Image(systemName: "heart")
+                .foregroundColor( Color("ColorOne"))
+                .font(.largeTitle)
         }
     }
 }
